@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <div class="logo">
+            <img src="./img/logo junior.webp" alt="logo de junior">
+        </div>
+        <nav> 
+            <ul>
+                <a href="https://junior.org.ar/" target="_blank"><li>HOME</li></a>
+                <a href="#nosotros" target="_blank" ><li>NOSOTROS</li></a>
+                <a href="https://junior.org.ar/inscripciones/" target="_blank"><li>INSCRIPCIONES</li></a>
+                <a href="https://junior.org.ar/novedades/" target="_blank"><li>NOVEDADES</li></a>
+                <a href="https://junior.org.ar/alumni/"><li>ALUMNI</li></a>
+            </ul>
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+
+    <div class="presentacion">
+        <h1>QUIÉNES SOMOS</h1>
+        <p> Somos una de las ONG más grandes del mundo. A través del aprendizaje activo en educación financiera, formación para el trabajo y emprendimiento, preparamos e inspiramos a los jóvenes para que sean protagonistas de su futuro.
+        </p>
+    </div>
+    <!--INICIO DE CARDS-->
+    <div class="contenedor">
+        <div class="caja">
+            <img src="./img/eldesafio.jpg" alt="Desafio de Junior">
+            <h1>EL DESAFIO</h1>
+        <button onclick="mostrarOcultar ('elDesafio');">ocultar/mostrar</button>
+            <div id="elDesafio">
+                <p>Insertos en la cuarta revolución industrial, la tecnología irrumpe en todos los ámbitos de la vida: aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesiones y surgen nuevas.</p>
+            </div>
+        </div>
+        <div class="caja">
+            <img src="./img/solucion.jpg" alt="Solución de Junior">    
+            <h1>LA SOLUCIÓN</h1>
+            <button onclick="mostrarOcultar ('laSolucion');">ocultar/mostrar</button>
+                <div id="laSolucion">
+                    <p>Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan protagonistas y emprendedores de sus propias vidas.</p>
+                </div>
+        </div>
+        <div class="caja">
+            <img src="./img/impacto.jpg" alt="Impacto de junior">
+            <h1>IMPACTO</h1>
+            <button onclick="mostrarOcultar ('elImpacto');">ocultar/mostrar</button>
+            <div id="elImpacto">
+                <p>Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor preparados para el futuro. 
+                Conocé en detalle los resultados de nuestras acciones en los distintos ejes de trabajo…  Ver más</p>
+            </div>
+        </div>    
+    </div>
+    <!--INICIO DE NOSOTROS-->
+    <div id="nosotros">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t-PSjREhlHM?si=0Sjg_piPKjT2ExLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7368973460275!2d-98.22328632479577!3d19.03131188216415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc165974731ad%3A0xecfba23a5e28160!2sJunior%20Achievement%20Puebla!5e0!3m2!1ses-419!2smx!4v1724082559917!5m2!1ses-419!2smx" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--FIN DE NOSOTROS -->
+
+    <!--INICIO FOOTER-->
+    <footer>
+        <p>JA Centro de Emprendedores Paul Reichmann Paseo de la Reforma No. 505, Torre Mayor - Piso 53, Col. Cuauhtémoc CP 06500, Ciudad de México Teléfono: 555 211 9444 Aviso de Privacidad</p>
+    </footer>
+    <script src="ejemplo.js"></script>
+    
+</body>
+</html>
